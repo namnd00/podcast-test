@@ -1,4 +1,5 @@
 #!/bin/bash
+# chmod -R 775 entrypoint.sh
 
 echo "====================="
 
