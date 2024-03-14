@@ -49,6 +49,7 @@ for item in yaml_data["item"]:
     xml_tree.SubElement(item_level, "description").text = item["description"]
     xml_tree.SubElement(item_level, "itunes:duration").text = item["duration"]
     xml_tree.SubElement(item_level, "pubDate").text = item["published"]
+    xml_tree.SubElement(item_level, "title").text = item["title"]
 
     enclosure = xml_tree.SubElement(
         item_level,
